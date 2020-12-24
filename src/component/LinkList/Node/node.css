@@ -1,0 +1,40 @@
+.node{
+    display: flex;
+    align-items: center;
+    
+}
+.data{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;   
+    border: 2px solid black;
+}
+/**** draw arrow ***/
+.arrow:after{
+   content: "";
+  display: inline-block !important;
+  width: 0;
+  height: 0;
+  border-left: 8px solid #C8A962;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  vertical-align: middle;
+ 
+}
+
+.arrow:before{
+  width: 20px;
+  height: 4px;
+  background: #C8A962;
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* .data{
+    margin: 18px;
+} */
